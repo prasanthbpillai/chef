@@ -666,7 +666,7 @@ video {
 	margin:0;
 	padding:0;
 }
-.high_light a{
+.high_light a, a.banner-link {
 	border: none;
 	font-family: inherit;
 	font-size: inherit;
@@ -691,6 +691,30 @@ video {
 	position:absolute;
 	right:15px;
 	top:0;
+}
+
+a.banner-link {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color:#fff;
+	background:none;
+	border:2px solid #fff;
+	cursor: pointer;
+	padding: 15px 30px;
+	outline: none;
+	font-size:14px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-transform:uppercase;
+	font-weight:bold;
+	display: inline-block;
+	margin-top:15px;
+	text-align:center;
 }
 .high_light a:hover{
 	background:#333;

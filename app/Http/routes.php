@@ -25,6 +25,9 @@ Route::get('/', 'HomeController@index');
 
 Route::get('/kitchens', 'Kitchen\ListController@index');
 Route::get('/kitchens/{name}/{id}', 'Kitchen\DetailsController@index');
+Route::get('/create-kitchen/{step}', 'Kitchen\CreateController@index');
+
+
 
 
 Route::auth();

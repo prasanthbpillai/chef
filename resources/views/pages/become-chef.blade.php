@@ -3,17 +3,30 @@
 @section('content')
 
     <!-- SubHeader =============================================== -->
-    <section class="parallax-window" id="short" data-parallax="scroll" data-image-src="img/sub_header_cart.jpg" data-natural-width="1400" data-natural-height="350">
+    <section class="parallax-window" id="short" data-parallax="scroll" data-image-src="img/sub_header_cart.jpg" data-natural-width="" data-natural-height="">
         <div id="subheader">
             <div id="sub_content">
                 <h1>Become a Chef</h1>
-                <p>Showcase your culinary skills and invite your guests</p>
-                <p></p>
+                <p>
+
+                    Showcase your culinary skills and invite your guests</p>
+                <!--<p class="clearfix">
+                <a href="" class="banner-link">Get Your Kitchen Ready</a>
+                </p>-->
+                    <p></p>
             </div><!-- End sub_content -->
         </div><!-- End subheader -->
     </section><!-- End section -->
     <!-- End SubHeader ============================================ -->
 
+
+    <div class="high_light">
+        <div class="container">
+            <h3>List your kitchen</h3>
+            <p>Create you account manage your kitchen</p>
+            <a href="/create-kitchen/1">Create Kitchen</a>
+        </div><!-- End container -->
+    </div><!-- End hight_light -->
     <div id="position">
         <div class="container">
             <ul>
